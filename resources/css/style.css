@@ -11,7 +11,42 @@ html {
   align-items: center;
 }
 
+.brand {
+  flex-grow: 1;
+}
+
+.nav .brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav .brand img {
+  height: 3rem;
+  width: auto;
+  padding-left: 24px;
+  padding-top: 0.3rem;
+}
+
 .nav .menu .navigation a {
   text-decoration: none;
   color: black;
+  margin: 0.5rem;
+}
+
+.nav .menu .navigation {
+  margin-right: 1rem;
+}
+
+.nav .name span {
+  font-size: 1.8rem;
+}
+
+.nav .name .dark {
+  color: #464040;
+  font-weight: bold;
+}
+
+.nav .name .light {
+  color: #909090;
+  font-weight: lighter;
 }
