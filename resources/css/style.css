@@ -9,6 +9,7 @@ html {
   height: 4rem;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #F0EFEF;
 }
 
 .brand {
@@ -23,7 +24,7 @@ html {
 .nav .brand img {
   height: 3rem;
   width: auto;
-  padding-left: 24px;
+  padding-left: 1.5rem;
   padding-top: 0.3rem;
 }
 
@@ -111,4 +112,121 @@ html {
     width: auto;
     padding-top: 0.3rem;
   }
+}
+
+/* Main header section styling */
+
+.main-banner {
+  background-color: #F0EFEF;
+  display: flex;
+}
+
+.main-banner .main-image {
+  width: 60%;
+  height: auto;
+  overflow: hidden;
+  float: left;
+}
+
+.main-banner .main-image img {
+  margin: 2rem;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.main-banner .right.main {
+  margin-left: 5rem;
+  margin-top: 9rem;
+}
+
+.main-banner .right.main .headline {
+  color: #464040;
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin-right: 3rem;
+}
+
+.main-banner .right.main .body {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+  font-size: 2rem;
+  color: #464040;
+  line-height: 1.5;
+}
+
+.main-banner .right.main .button {
+  margin-top: 4rem;
+}
+
+.main-banner .right.main .button a {
+  background-color: #464040;
+  color: white;
+  text-decoration: none;
+  padding: 1.2rem 35%;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+/* Main header section, tablet styling 1332px, 988px, 768px*/
+@media only screen and (max-width: 1332px) {
+  .main-banner .right.main {
+    margin-left: 3rem;
+    margin-top: 5rem;
+  }
+
+  .main-banner .right.main .headline {
+    color: #464040;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .main-banner .right.main .body {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+    line-height:
+    color: #464040;
+    line-height: 1;
+  }
+}
+
+@media only screen and (max-width: 988px) {
+  .main-banner .right.main {
+    margin-left: 2rem;
+    margin-top: 3.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .main-banner .right.main .headline {
+    color: #464040;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .main-banner .right.main .body {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    color: #464040;
+    line-height: 1;
+  }
+
+  .main-banner .right.main .button {
+    margin-top: 2.5rem;
+  }
+
+  .main-banner .right.main .button a {
+    background-color: #464040;
+    color: white;
+    text-decoration: none;
+    padding: 1.2rem 20%;
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+
+@media only screen and (max-width: 767px) {
+
+}
 }
