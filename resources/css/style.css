@@ -3,7 +3,7 @@ html {
   font-family: Helvetica;
 }
 
-/*Navigation styling*/
+/* Navigation styling, Desktop*/
 .nav {
   background-color: white;
   height: 4rem;
@@ -49,4 +49,66 @@ html {
 .nav .name .light {
   color: #909090;
   font-weight: lighter;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav.tablet {
+    display: none;
+  }
+}
+
+
+/* Tablet navigation styling, 768px */
+
+@media only screen and (max-width: 767px) {
+  .nav.desktop .name {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 451px) {
+  .nav.mobile {
+    display: none;
+  }
+}
+
+/* Mobile navigation styling, 450px */
+
+@media only screen and (max-width: 450px) {
+  .nav.desktop {
+    display: none;
+  }
+
+  .nav.desktop .menu {
+    display: none;
+  }
+
+  .nav.mobile {
+    display: flex;
+  }
+
+  .nav.mobile .logo {
+    flex-grow: 1;
+  }
+
+  .nav.mobile .logo img {
+    height: 3rem;
+    width: auto;
+    padding-left: 24px;
+    padding-top: 0.3rem;
+  }
+
+  .nav.mobile .mobile-menu {
+    margin-right: 1.5rem;
+  }
+
+  .nav.mobile .mobile-menu a {
+    margin: 1.5rem;
+  }
+
+  .nav.mobile .mobile-menu img {
+    height: 2rem;
+    width: auto;
+    padding-top: 0.3rem;
+  }
 }
