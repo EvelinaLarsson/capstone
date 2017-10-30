@@ -227,6 +227,44 @@ html {
   }
 
 @media only screen and (max-width: 767px) {
+  .main-banner {
+    display: block;
+  }
 
-}
+  .main-banner .right.main {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    padding-bottom: 3rem;
+  }
+
+  .main-banner .main-image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    float:none;
+    margin: 0rem;
+  }
+
+  .main-banner .main-image img {
+    margin: 0rem;
+  }
+
+  .main-banner .right.main .headline {
+    color: #464040;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+
+  .main-banner .right.main .body {
+    font-size: 1.6rem;
+    line-height: 1.2
+  }
+
+  .main-banner .right.main .button a {
+    padding: 1.1rem 37%;
+    font-size: 1rem;
+    font-weight: normal;
+  }
 }
