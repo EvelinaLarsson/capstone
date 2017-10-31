@@ -55,7 +55,7 @@ html {
 
 .nav .menu .navigation a {
   text-decoration: none;
-  color: black;
+  color: #686262;
   margin: 0.5rem;
 }
 
@@ -147,10 +147,9 @@ html {
 }
 
 .main-banner .main-image {
-  width: 60%;
   height: auto;
-  overflow: hidden;
   float: left;
+  overflow: hidden;
 }
 
 .main-banner .main-image img {
@@ -161,14 +160,13 @@ html {
 }
 
 .main-banner .right.main {
-  margin-left: 5rem;
+  margin-left: 6rem;
   margin-top: 9rem;
 }
 
 .main-banner .right.main .headline {
   font-size: 3.2rem;
   font-weight: bold;
-  margin-right: 3rem;
 }
 
 .main-banner .right.main .body {
@@ -193,7 +191,7 @@ html {
 }
 
 /* Main header section, tablet styling 1439, 1332px,
-988px, 768px*/
+1024px, 768px*/
 @media only screen and (max-width: 1439px) {
   .main-banner .right.main {
     margin-top: 6rem;
@@ -249,6 +247,7 @@ html {
     font-size: 1rem;
     font-weight: lighter;
   }
+}
 
 @media only screen and (max-width: 767px) {
   .main-banner {
@@ -277,7 +276,6 @@ html {
   .main-banner .right.main .headline {
     font-size: 2.4rem;
     font-weight: bold;
-    margin-right: 0rem;
   }
 
   .main-banner .right.main .body {
@@ -296,4 +294,81 @@ html {
     font-size: 1rem;
     font-weight: normal;
   }
+}
+
+/* Second section styling; two-column class used for section 4 as well */
+.section2 {
+  display: flex;
+}
+
+.column1 {
+  width: 60%;
+  padding-right: 2rem;
+  border-right: 1px solid #F0EFEF;
+}
+
+.column1 .section-image {
+  display: inline;
+  height: auto;
+  float: left;
+  overflow: hidden;
+}
+
+.column1 .section-image img {
+  margin: 2rem;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.column1 .copy {
+  margin: 2rem;
+}
+
+.column1 .copy .headline2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.column1 .copy .body2 {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.column1 .copy .ps1 {
+  margin-top: 3em;
+  font-size: 0.8rem;
+}
+
+.column2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.small.one.desktop {
+  border-bottom: 3px solid #F0EFEF;
+  display: block;
+}
+
+.small.two.desktop {
+  border-bottom: 3px solid #F0EFEF;
+}
+
+.column2 .small-headline {
+  font-size: 2rem;
+}
+
+.colum2 .small-copy {
+  float: right;
+}
+
+.small {
+  margin: 1rem;
+}
+
+.small img {
+  width: 35%;
+  height: auto;
 }
