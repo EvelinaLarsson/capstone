@@ -83,7 +83,6 @@ html {
   }
 }
 
-
 /* Tablet navigation styling, 768px */
 
 @media only screen and (max-width: 767px) {
@@ -333,6 +332,7 @@ html {
 .column1 .copy .body2 {
   margin-top: 1.5rem;
   font-size: 1.2rem;
+  line-height: 1.2;
 }
 
 .column1 .copy .ps1 {
@@ -347,23 +347,6 @@ html {
   margin-top: 1rem;
 }
 
-.small.one.desktop {
-  border-bottom: 3px solid #F0EFEF;
-  display: block;
-}
-
-.small.two.desktop {
-  border-bottom: 3px solid #F0EFEF;
-}
-
-.column2 .small-headline {
-  font-size: 2rem;
-}
-
-.colum2 .small-copy {
-  float: right;
-}
-
 .small {
   margin: 1rem;
 }
@@ -371,4 +354,38 @@ html {
 .small img {
   width: 35%;
   height: auto;
+}
+
+.small.one.desktop {
+  border-bottom: 3px solid #F0EFEF;
+  display: block;
+}
+
+.small.one.desktop .one-copy {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 65%;
+}
+
+.small.two.desktop {
+  border-bottom: 3px solid #F0EFEF;
+}
+
+.small.two.desktop .two-copy {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 65%;
+}
+
+.small.three.desktop .three-copy {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 65%;
+}
+
+.column2 .small-headline {
+  font-size: 2rem;
 }
