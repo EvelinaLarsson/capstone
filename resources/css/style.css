@@ -322,6 +322,7 @@ html {
 
 .column1 .copy {
   margin: 2rem;
+  float: right;
 }
 
 .column1 .copy .headline2 {
@@ -348,7 +349,7 @@ html {
 }
 
 .small {
-  margin: 1rem;
+  margin-left: 1rem;
 }
 
 .small img {
@@ -359,33 +360,49 @@ html {
 .small.one.desktop {
   border-bottom: 3px solid #F0EFEF;
   display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .small.one.desktop .one-copy {
   display: flex;
   flex-direction: column;
   float: right;
-  width: 65%;
+  width: 60%;
+  padding-top: 9%;
 }
 
 .small.two.desktop {
   border-bottom: 3px solid #F0EFEF;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .small.two.desktop .two-copy {
   display: flex;
   flex-direction: column;
   float: right;
-  width: 65%;
+  width: 60%;
+  padding-top: 9%;
+}
+
+.small.three.desktop {
+  padding-top: 1rem;
 }
 
 .small.three.desktop .three-copy {
   display: flex;
   flex-direction: column;
   float: right;
-  width: 65%;
+  width: 60%;
+  padding-top: 9%;
 }
 
 .column2 .small-headline {
   font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.column2 .small-copy {
+  padding-bottom: 0.5rem;
 }
