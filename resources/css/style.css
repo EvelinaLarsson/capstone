@@ -1,6 +1,30 @@
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Rubik Light'), local('Rubik-Light'), url(https://fonts.gstatic.com/s/rubik/v7/tRvJQnSw4lmceQIbdzOKGHYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rubik'), local('Rubik-Regular'), url(https://fonts.gstatic.com/s/rubik/v7/p_PvaTv0YzIEJlEVv30xK6CWcynf_cDxXwCLxiixG1c.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rubik Bold'), local('Rubik-Bold'), url(https://fonts.gstatic.com/s/rubik/v7/0hS39AKxpJlEXQF3mVPgrnYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
 html {
   font-size: 16px;
-  font-family: Helvetica;
+  font-family: "Rubik";
 }
 
 /* Navigation styling, Desktop*/
@@ -43,7 +67,7 @@ html {
 }
 
 .nav .name .dark {
-  color: #464040;
+  color: #686262;
   font-weight: bold;
 }
 
@@ -141,7 +165,7 @@ html {
 }
 
 .main-banner .right.main .headline {
-  color: #464040;
+  color: #686262;
   font-size: 3.2rem;
   font-weight: bold;
   margin-right: 3rem;
@@ -152,7 +176,7 @@ html {
   margin-bottom: 2rem;
   margin-right: 3rem;
   font-size: 2rem;
-  color: #464040;
+  color: #686262;
   line-height: 1.5;
 }
 
@@ -161,7 +185,7 @@ html {
 }
 
 .main-banner .right.main .button a {
-  background-color: #464040;
+  background-color: #686262;
   color: white;
   text-decoration: none;
   padding: 1.2rem 35%;
@@ -169,7 +193,14 @@ html {
   font-weight: lighter;
 }
 
-/* Main header section, tablet styling 1332px, 988px, 768px*/
+/* Main header section, tablet styling 1439, 1332px,
+988px, 768px*/
+@media only screen and (max-width: 1439px) {
+  .main-banner .right.main {
+    margin-top: 6rem;
+  }
+}
+
 @media only screen and (max-width: 1332px) {
   .main-banner .right.main {
     margin-left: 3rem;
@@ -177,7 +208,6 @@ html {
   }
 
   .main-banner .right.main .headline {
-    color: #464040;
     font-size: 2.5rem;
     font-weight: bold;
   }
@@ -186,13 +216,11 @@ html {
     margin-top: 3rem;
     margin-bottom: 1.5rem;
     font-size: 1.6rem;
-    line-height:
-    color: #464040;
     line-height: 1;
   }
 }
 
-@media only screen and (max-width: 988px) {
+@media only screen and (max-width: 1024px) {
   .main-banner .right.main {
     margin-left: 2rem;
     margin-top: 3.5rem;
@@ -200,7 +228,6 @@ html {
   }
 
   .main-banner .right.main .headline {
-    color: #464040;
     font-size: 2rem;
     font-weight: bold;
   }
@@ -209,7 +236,6 @@ html {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
     font-size: 1.3rem;
-    color: #464040;
     line-height: 1;
   }
 
@@ -218,7 +244,6 @@ html {
   }
 
   .main-banner .right.main .button a {
-    background-color: #464040;
     color: white;
     text-decoration: none;
     padding: 1.2rem 20%;
@@ -234,7 +259,7 @@ html {
   .main-banner .right.main {
     margin-left: 2rem;
     margin-top: 2rem;
-    margin-right: 1rem;
+    margin-right: 2rem;
     padding-bottom: 3rem;
   }
 
@@ -242,7 +267,7 @@ html {
     width: 100%;
     height: auto;
     overflow: hidden;
-    float:none;
+    float: none;
     margin: 0rem;
   }
 
@@ -251,19 +276,24 @@ html {
   }
 
   .main-banner .right.main .headline {
-    color: #464040;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: bold;
-    margin-right: 1rem;
+    margin-right: 0rem;
   }
 
   .main-banner .right.main .body {
     font-size: 1.6rem;
-    line-height: 1.2
+    line-height: 1.2;
+    margin-right: 0rem;
+  }
+
+  .main-banner .right.main .button {
+    margin-top: 4rem;
   }
 
   .main-banner .right.main .button a {
-    padding: 1.1rem 37%;
+    background-color: #C5C4C4;
+    padding: 1.1rem 38%;
     font-size: 1rem;
     font-weight: normal;
   }
