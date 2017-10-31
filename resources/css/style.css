@@ -300,6 +300,7 @@ html {
   display: flex;
 }
 
+/*Column 1 styling*/
 .column1 {
   width: 60%;
   padding-right: 2rem;
@@ -341,6 +342,7 @@ html {
   font-size: 0.8rem;
 }
 
+/*Column 2 styling*/
 .column2 {
   width: 40%;
   display: flex;
@@ -405,4 +407,18 @@ html {
 
 .column2 .small-copy {
   padding-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .small.one.mobile, .small.two.mobile, .small.three.mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .column1, .small.one.desktop, .small.two.desktop, .small.three.desktop {
+    display: none;
+  }
+
+
 }
