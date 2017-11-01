@@ -28,7 +28,7 @@ html {
   color: #686262;
 }
 
-/* Navigation styling, Desktop*/
+/* Navigation styling, Desktop */
 .nav {
   background-color: white;
   height: 4rem;
@@ -190,7 +190,7 @@ html {
 }
 
 /* Main header section, tablet styling 1439, 1332px,
-1024px, 768px*/
+1024px, 768px */
 @media only screen and (max-width: 1439px) {
   .main-banner .right.main {
     margin-top: 6rem;
@@ -300,7 +300,7 @@ html {
   display: flex;
 }
 
-/*Column 1 styling*/
+/* Column 1 styling */
 .column1 {
   width: 60%;
   padding-right: 2rem;
@@ -342,7 +342,7 @@ html {
   font-size: 0.8rem;
 }
 
-/*Column 2 styling*/
+/* Column 2 styling including mobile 768px */
 .column2 {
   width: 40%;
   display: flex;
@@ -482,4 +482,29 @@ html {
     flex-direction: column;
     padding: 2rem;
   }
+}
+
+/* Section 3 - Courses styling */
+
+.section3 {
+  background-color: #F0EFEF;
+}
+
+.section3 .headline3 {
+  padding: 4rem 0 3rem 0;
+  text-align: center;
+}
+
+.section3 .headline3 span {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+}
+
+.courses img {
+  margin: 1rem;
 }
