@@ -428,6 +428,10 @@ html {
     width: 100%;
   }
 
+  .small a {
+    padding-top: .75rem;
+  }
+
   .small.one.mobile {
     display: flex;
     flex-direction: column;
@@ -440,7 +444,9 @@ html {
   }
 
   .small.one.mobile .one-copy {
-    float: right;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
   }
 
   .small.two.mobile {
@@ -454,6 +460,12 @@ html {
     height: auto;
   }
 
+  .small.two.mobile .two-copy {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
   .small.three.mobile {
     display: flex;
     flex-direction: column;
@@ -463,5 +475,11 @@ html {
   .small.three.mobile img {
     width: 100%;
     height: auto;
+  }
+
+  .small.three.mobile .three-copy {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
   }
 }
