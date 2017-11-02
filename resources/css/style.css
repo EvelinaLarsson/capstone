@@ -554,49 +554,48 @@ html {
 }
 
 /* Column 1 styling */
-.column1 {
+.column1b {
   width: 60%;
   padding-right: 2rem;
-  border-right: 1px solid #F0EFEF;
 }
 
-.column1 .section-image {
+.column1b .section-image {
   display: inline;
   height: auto;
   float: left;
   overflow: hidden;
 }
 
-.column1 .section-image img {
+.column1b .section-image img {
   margin: 2rem;
   width: 100%;
   height: auto;
   display: block;
 }
 
-.column1 .copy {
+.column1b .copy {
   margin: 2rem;
   float: right;
 }
 
-.column1 .copy .headline2 {
+.column1b .copy .headline2 {
   font-size: 2.8rem;
   font-weight: bold;
 }
 
-.column1 .copy .body2 {
+.column1b .copy .body2 {
   margin-top: 1.5rem;
   font-size: 1.2rem;
   line-height: 1.2;
 }
 
-.column1 .copy .ps1 {
+.column1b .copy .ps1 {
   margin-top: 3em;
   font-size: 0.8rem;
 }
 
 /* Column 2 styling including mobile 768px */
-.column2 {
+.column2b {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -641,12 +640,12 @@ html {
   padding-top: 9%;
 }
 
-.column2 .small-headline {
+.column2b .small-headline {
   font-size: 1.5rem;
   padding-bottom: 0.5rem;
 }
 
-.column2 .small-copy {
+.column2b .small-copy {
   padding-bottom: 0.5rem;
 }
 
@@ -657,15 +656,15 @@ html {
 }
 
 @media only screen and (max-width: 767px) {
-  .column1, .small.one.desktop, .small.two.desktop {
+  .column1b, .small.one.desktop, .small.two.desktop {
     display: none;
   }
 
-  .column1 {
+  .column1b {
     width: 0%;
   }
 
-  .column2 {
+  .column2b {
     width: 100%;
   }
 
