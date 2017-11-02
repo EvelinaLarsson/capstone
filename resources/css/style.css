@@ -500,7 +500,7 @@ html {
   font-weight: bold;
 }
 
-.courses {
+.courses.desktop {
   display: flex;
   margin-left: 4.5rem;
   margin-right: 4.5rem;
@@ -511,7 +511,7 @@ html {
   padding: 1rem;
 }
 
-.courses img {
+.courses.desktop img {
   padding: 1rem 1rem 0 1rem;
   width: 100%;
   height: auto;
@@ -527,19 +527,23 @@ html {
   padding: 1.5rem;
 }
 
-.courses .small-headline {
+.courses.desktop .small-headline {
   font-size: 1.5rem;
   padding-bottom: 0.75rem;
 }
 
-.courses .small-copy {
+.courses.desktop .small-copy {
   color: #b2aeae;
   padding: 0.25rem 0;
   line-height: 1.4;
 }
 
+.courses.mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 1083px) {
-  .courses .small-copy {
+  .courses.desktop .small-copy {
     display: none;
   }
 
@@ -547,6 +551,37 @@ html {
     height: 3rem;
   }
 }
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+  .section3 .courses.desktop {
+    display: none;
+  }
+
+  .courses.mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .course {
+    padding: 0;
+    margin: 0;
+  }
+
+  #course-copy {
+    height: 3.5rem;
+    width: auto;
+    padding: 0;
+    margin: 0.5rem;
+  }
+
+
+}
+
+
 
 /* Section 4 - Most of the code is taken from Section 2 */
 .headline4 {
