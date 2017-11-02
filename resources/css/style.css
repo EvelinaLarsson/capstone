@@ -538,6 +538,16 @@ html {
   line-height: 1.4;
 }
 
+@media only screen and (max-width: 1083px) {
+  .courses .small-copy {
+    display: none;
+  }
+
+  #course-copy {
+    height: 3rem;
+  }
+}
+
 /* Section 4 - Most of the code is taken from Section 2 */
 .headline4 {
   text-align: center;
