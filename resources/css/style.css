@@ -537,3 +537,136 @@ html {
   padding: 0.25rem 0;
   line-height: 1.4;
 }
+
+/* Section 4 - Most of the code is taken from Section 2 */
+.headline4 {
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+}
+
+.headline4 span {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.section4 {
+  display: flex;
+}
+
+/* Column 1 styling */
+.column1 {
+  width: 60%;
+  padding-right: 2rem;
+  border-right: 1px solid #F0EFEF;
+}
+
+.column1 .section-image {
+  display: inline;
+  height: auto;
+  float: left;
+  overflow: hidden;
+}
+
+.column1 .section-image img {
+  margin: 2rem;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.column1 .copy {
+  margin: 2rem;
+  float: right;
+}
+
+.column1 .copy .headline2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.column1 .copy .body2 {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.column1 .copy .ps1 {
+  margin-top: 3em;
+  font-size: 0.8rem;
+}
+
+/* Column 2 styling including mobile 768px */
+.column2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.small {
+  margin-left: 1rem;
+}
+
+.small img {
+  width: 35%;
+  height: auto;
+}
+
+.small.one.desktop {
+  border-bottom: 3px solid #F0EFEF;
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.small.one.desktop .one-copy {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 60%;
+  padding-top: 9%;
+}
+
+.small.two.desktop {
+  border-bottom: 3px solid #F0EFEF;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.small.two.desktop .two-copy {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 60%;
+  padding-top: 9%;
+}
+
+.column2 .small-headline {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.column2 .small-copy {
+  padding-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .small.one.mobile, .small.two.mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .column1, .small.one.desktop, .small.two.desktop {
+    display: none;
+  }
+
+  .column1 {
+    width: 0%;
+  }
+
+  .column2 {
+    width: 100%;
+  }
+
+}
