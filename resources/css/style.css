@@ -557,6 +557,10 @@ html {
 }
 
 @media only screen and (max-width: 767px) {
+  .section3 {
+    background-color: white;
+  }
+
   .section3 .courses.desktop {
     display: none;
   }
@@ -564,21 +568,26 @@ html {
   .courses.mobile {
     display: flex;
     flex-direction: column;
+    width: 90%;
   }
 
-  .course {
-    padding: 0;
-    margin: 0;
+  .courses.mobile .course-copy {
+    flex-direction: column;
+    padding-top: 1.7rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    height: 3.3rem;
+    background-color: #cbc8c8;
+    color: #686262;
+    width: 100%;
+    margin-left: 5%;
+    margin-bottom: 1rem;
   }
 
-  #course-copy {
+  .course-copy span {
     height: 3.5rem;
-    width: auto;
-    padding: 0;
-    margin: 0.5rem;
+    padding-left: 1.5rem;
   }
-
-
 }
 
 
