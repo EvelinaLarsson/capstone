@@ -401,7 +401,7 @@ html {
 }
 
 .column2 .small-headline {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 0.5rem;
 }
 
@@ -491,7 +491,7 @@ html {
 }
 
 .section3 .headline3 {
-  padding: 4rem 0 3rem 0;
+  padding: 4rem 0 2rem 0;
   text-align: center;
 }
 
@@ -502,6 +502,8 @@ html {
 
 .courses {
   display: flex;
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
 }
 
 .course {
@@ -510,12 +512,28 @@ html {
 }
 
 .courses img {
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
   width: 100%;
   height: auto;
 }
 
-#course-copy span {
+#course-copy {
   display: flex;
   flex-direction: column;
+  background-color: white;
+  height: 8rem;
+  margin-left: 1rem;
+  margin-right: -1rem;
+  padding: 1.5rem;
+}
+
+.courses .small-headline {
+  font-size: 1.5rem;
+  padding-bottom: 0.75rem;
+}
+
+.courses .small-copy {
+  color: #b2aeae;
+  padding: 0.25rem 0;
+  line-height: 1.4;
 }
