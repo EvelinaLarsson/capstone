@@ -671,14 +671,14 @@ html {
   height: auto;
 }
 
-.small.one.desktop {
-  border-bottom: 3px solid #F0EFEF;
+.small.one.desktopb {
+  border-bottom: 0px;
   display: block;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.small.one.desktop .one-copy {
+.small.one.desktopb .one-copy {
   display: flex;
   flex-direction: column;
   float: right;
@@ -686,13 +686,13 @@ html {
   padding-top: 9%;
 }
 
-.small.two.desktop {
-  border-bottom: 3px solid #F0EFEF;
+.small.two.desktopb {
+  border-bottom: 0px;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.small.two.desktop .two-copy {
+.small.two.desktopb .two-copy {
   display: flex;
   flex-direction: column;
   float: right;
@@ -710,22 +710,22 @@ html {
 }
 
 @media only screen and (min-width: 768px) {
-  .small.one.mobile, .small.two.mobile {
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 767px) {
-  .column1b, .small.one.desktop, .small.two.desktop {
+  .column2b, .small.one.desktopb, .small.two.desktopb {
     display: none;
   }
 
   .column1b {
-    width: 0%;
-  }
-
-  .column2b {
     width: 100%;
   }
 
+  .column1b .copy {
+    display: none;
+  }
+
+  .column2b {
+    width: 0%;
+  }
 }
