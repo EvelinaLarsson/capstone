@@ -632,7 +632,7 @@ html {
 
 .column1b video {
   margin: 2rem;
-  width: 100%;
+  width: 96%;
   height: auto;
   display: block;
 }
@@ -653,10 +653,6 @@ html {
   line-height: 1.2;
 }
 
-.column1b .copy .ps1 {
-  margin-top: 3em;
-  font-size: 0.8rem;
-}
 
 /* Column 2 styling including mobile 768px */
 .column2b {
