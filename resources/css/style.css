@@ -729,3 +729,29 @@ html {
     width: 0%;
   }
 }
+
+/* Footer desktop styling */
+footer {
+  display: flex;
+  border-top: 2px solid #F0EFEF;
+  height: 5rem;
+}
+
+footer .copyright {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+footer .links {
+  margin-top: 1rem;
+}
+
+footer .links a {
+  text-decoration: none;
+  color: #686262;
+  margin-right: 2rem;
+}
+
+.copyright {
+  flex-grow: 1;
+}
