@@ -623,14 +623,14 @@ html {
   padding-right: 2rem;
 }
 
-.column1b .section-image {
+.column1b video {
   display: inline;
   height: auto;
   float: left;
   overflow: hidden;
 }
 
-.column1b .section-image img {
+.column1b video {
   margin: 2rem;
   width: 100%;
   height: auto;
