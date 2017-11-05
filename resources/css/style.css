@@ -630,9 +630,6 @@ html {
   height: auto;
   float: left;
   overflow: hidden;
-}
-
-.column1b video {
   margin: 2rem;
   width: 96%;
   height: auto;
@@ -720,8 +717,17 @@ html {
   }
 
   .column1b {
+    padding-right: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .column1b video {
+    margin: 0;
     width: 100%;
   }
+
 
   .column1b .copy {
     display: none;
