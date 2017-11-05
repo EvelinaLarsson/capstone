@@ -262,6 +262,7 @@ html {
   }
 
   .cta a {
+    background-color: #cbc8c8;
     padding: 0.8rem 20%;
   }
 }
@@ -302,6 +303,7 @@ html {
   }
 
   .cta {
+    width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 28%;
@@ -418,6 +420,18 @@ html {
   padding-top: 9%;
 }
 
+.small.one.desktop .one-copy a {
+  transition: color 0ms linear 0s;
+}
+
+.small.one.desktop .one-copy a:active {
+  color: #2485f2;
+}
+
+.small.one.desktop .one-copy a:visited {
+  color: #2485f2;
+}
+
 .small.two.desktop {
   border-bottom: 3px solid #F0EFEF;
   padding-top: 1rem;
@@ -437,6 +451,18 @@ html {
   padding-top: 9%;
 }
 
+.small.two.desktop .two-copy a {
+  transition: color 0ms linear 0s;
+}
+
+.small.two.desktop .two-copy a:active {
+  color: #2485f2;
+}
+
+.small.two.desktop .two-copy a:visited {
+  color: #2485f2;
+}
+
 .small.three.desktop {
   padding-top: 1rem;
   transition: background-color 400ms ease-out 0s;
@@ -452,6 +478,18 @@ html {
   float: right;
   width: 60%;
   padding-top: 9%;
+}
+
+.small.three.desktop .three-copy a {
+  transition: color 0ms linear 0s;
+}
+
+.small.three.desktop .three-copy a:active {
+  color: #2485f2;
+}
+
+.small.three.desktop .three-copy a:visited {
+  color: #2485f2;
 }
 
 .column2 .small-headline {
@@ -503,6 +541,18 @@ html {
     padding: 2rem;
   }
 
+  .small.one.mobile .one-copy a {
+    transition: color 0ms linear 0s;
+  }
+
+  .small.one.mobile .one-copy a:active {
+    color: #2485f2;
+  }
+
+  .small.one.mobile .one-copy a:visited {
+    color: #2485f2;
+  }
+
   .small.two.mobile {
     display: flex;
     flex-direction: column;
@@ -520,6 +570,18 @@ html {
     padding: 2rem;
   }
 
+  .small.two.mobile .two-copy a {
+    transition: color 0ms linear 0s;
+  }
+
+  .small.two.mobile .two-copy a:active {
+    color: #2485f2;
+  }
+
+  .small.two.mobile .two-copy a:visited {
+    color: #2485f2;
+  }
+
   .small.three.mobile {
     display: flex;
     flex-direction: column;
@@ -535,6 +597,18 @@ html {
     display: flex;
     flex-direction: column;
     padding: 2rem;
+  }
+
+  .small.three.mobile .three-copy a {
+    transition: color 0ms linear 0s;
+  }
+
+  .small.three.mobile .three-copy a:active {
+    color: #2485f2;
+  }
+
+  .small.three.mobile .three-copy a:visited {
+    color: #2485f2;
   }
 }
 
@@ -646,6 +720,11 @@ html {
     width: 100%;
     margin-left: 5%;
     margin-bottom: 1rem;
+    transition: background-color 400ms linear 0s, color 0s linear 0s;
+  }
+
+  .courses.mobile .course-copy:hover {
+    background-color: #F0EFEF;
   }
 
   .course-copy a {
@@ -653,12 +732,15 @@ html {
     color: #686262;
   }
 
+  .course-copy a:active {
+    color: #2485f2;
+  }
+
   .course-copy span {
     height: 3.5rem;
     padding-left: 1.5rem;
   }
 }
-
 
 
 /* Section 4 - Most of the code is taken from Section 2 */
@@ -744,7 +826,7 @@ html {
   flex-direction: column;
   float: right;
   width: 60%;
-  padding-top: 9%;
+  padding-top: 7%;
 }
 
 .small.two.desktopb {
@@ -764,6 +846,12 @@ html {
   float: right;
   width: 60%;
   padding-top: 9%;
+}
+
+.column2b a {
+  text-decoration: none;
+  color: #686262;
+  padding-bottom: 1rem;
 }
 
 .column2b .small-headline {
