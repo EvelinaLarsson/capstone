@@ -735,6 +735,7 @@ footer {
   display: flex;
   border-top: 2px solid #F0EFEF;
   height: 5rem;
+  font-size: 0.75rem;
 }
 
 footer .copyright {
@@ -754,4 +755,15 @@ footer .links a {
 
 .copyright {
   flex-grow: 1;
+}
+
+@media only screen and (max-width: 450px) {
+  footer .copyright {
+    margin-top: 3rem;
+  }
+
+  footer .links {
+    display: none;
+  }
+
 }
