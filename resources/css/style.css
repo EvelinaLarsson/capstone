@@ -57,6 +57,11 @@ html {
   text-decoration: none;
   color: #686262;
   margin: 0.5rem;
+  transition: color 0ms linear 0s;
+}
+
+.nav .menu .navigation a:active {
+  color: #2485f2;
 }
 
 .nav .menu .navigation {
@@ -195,11 +200,15 @@ html {
   padding: 1.2rem 35%;
   font-size: 1.5rem;
   font-weight: lighter;
-  transition: background-color 650ms linear 0s;
+  transition: background-color 650ms linear 0s, color 0s linear 0s;
 }
 
 .cta a:hover {
   background-color: #909090;
+}
+
+.cta a:active {
+  color: #2485f2;
 }
 
 @media only screen and (max-width: 1393px) {
@@ -375,6 +384,11 @@ html {
   margin-top: 1rem;
 }
 
+.column2 a {
+  text-decoration: none;
+}
+
+
 .small {
   margin-left: 1rem;
 }
@@ -389,6 +403,11 @@ html {
   display: block;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  transition: background-color 400ms ease-out 0s;
+}
+
+.small.one.desktop:hover {
+  background-color: #F0EFEF;
 }
 
 .small.one.desktop .one-copy {
@@ -403,6 +422,11 @@ html {
   border-bottom: 3px solid #F0EFEF;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  transition: background-color 400ms ease-out 0s;
+}
+
+.small.two.desktop:hover {
+  background-color: #F0EFEF;
 }
 
 .small.two.desktop .two-copy {
@@ -415,6 +439,11 @@ html {
 
 .small.three.desktop {
   padding-top: 1rem;
+  transition: background-color 400ms ease-out 0s;
+}
+
+.small.three.desktop:hover {
+  background-color: #F0EFEF;
 }
 
 .small.three.desktop .three-copy {
@@ -550,6 +579,11 @@ html {
   margin-left: 1rem;
   margin-right: -1rem;
   padding: 1.5rem;
+  transition: background-color 800ms ease-out 0s;
+}
+
+#course-copy:hover {
+  background-color: #F0EFEF;
 }
 
 #course-copy a {
@@ -698,6 +732,11 @@ html {
   display: block;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  transition: background-color 600ms ease-out 0s;
+}
+
+.small.one.desktopb:hover {
+  background-color: #F0EFEF;
 }
 
 .small.one.desktopb .one-copy {
@@ -712,6 +751,11 @@ html {
   border-bottom: 0px;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  transition: background-color 600ms ease-out 0s;
+}
+
+.small.two.desktopb:hover {
+  background-color: #F0EFEF;
 }
 
 .small.two.desktopb .two-copy {
