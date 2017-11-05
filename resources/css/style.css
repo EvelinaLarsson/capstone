@@ -303,11 +303,12 @@ html {
   }
 
   .cta {
-    width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 28%;
   }
+
+
 }
 
 @media only screen and (max-width: 553px) {
@@ -325,9 +326,6 @@ html {
     margin-left: 18%;
   }
 
-  .cta a {
-    width: 100%;
-  }
 }
 
 
