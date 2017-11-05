@@ -195,6 +195,11 @@ html {
   padding: 1.2rem 35%;
   font-size: 1.5rem;
   font-weight: lighter;
+  transition: background-color 650ms linear 0s;
+}
+
+.cta a:hover {
+  background-color: #909090;
 }
 
 @media only screen and (max-width: 1393px) {
@@ -208,6 +213,10 @@ html {
 
   .top-text p {
     font-size: 1.5rem;
+  }
+
+  .cta a {
+    font-size: 1.2rem;
   }
 }
 
