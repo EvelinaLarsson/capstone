@@ -197,6 +197,20 @@ html {
   font-weight: lighter;
 }
 
+@media only screen and (max-width: 1393px) {
+  .top-text {
+    margin-left: 1rem;
+  }
+
+  .main-headline {
+    font-size: 2.75rem;
+  }
+
+  .top-text p {
+    font-size: 1.5rem;
+  }
+}
+
 @media only screen and (max-width: 1105px) {
   .top-text {
     margin-left: 2.5rem;
