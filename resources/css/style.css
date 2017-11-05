@@ -189,11 +189,11 @@ html {
   line-height: 1.3;
 }
 
-.cta {
+.button {
   margin-top: 4rem;
 }
 
-.cta a {
+.button a {
   background-color: #686262;
   color: white;
   text-decoration: none;
@@ -203,11 +203,11 @@ html {
   transition: background-color 650ms linear 0s, color 0s linear 0s;
 }
 
-.cta a:hover {
+.button a:hover {
   background-color: #909090;
 }
 
-.cta a:active {
+.button a:active {
   color: #2485f2;
 }
 
@@ -224,7 +224,7 @@ html {
     font-size: 1.5rem;
   }
 
-  .cta a {
+  .button a {
     font-size: 1.2rem;
   }
 }
@@ -242,7 +242,7 @@ html {
     font-size: 1.25rem;
   }
 
-  .cta a {
+  .button a {
     padding: 1.2rem 20%;
     font-size: 1rem;
   }
@@ -261,7 +261,7 @@ html {
     font-size: 1rem;
   }
 
-  .cta a {
+  .button a {
     background-color: #cbc8c8;
     padding: 0.8rem 20%;
   }
@@ -302,7 +302,7 @@ html {
     margin-top: 1.25rem;
   }
 
-  .cta {
+  .button {
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 28%;
@@ -321,7 +321,7 @@ html {
     line-height: 1.5;
   }
 
-  .cta {
+  .button {
     width: 100%;
     margin-left: 18%;
   }
