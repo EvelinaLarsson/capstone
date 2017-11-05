@@ -97,9 +97,9 @@ html {
   }
 }
 
-/* Mobile navigation styling, 450px */
+/* Mobile navigation styling, 462px */
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 462px) {
   .nav.desktop {
     display: none;
   }
@@ -139,56 +139,6 @@ html {
 }
 
 /* Main header section styling */
-
-@media only screen and (max-width: 767px) {
-  .main-banner {
-    display: block;
-  }
-
-  .main-banner .right.main {
-    margin-left: 2rem;
-    margin-top: 2rem;
-    margin-right: 2rem;
-    padding-bottom: 3rem;
-  }
-
-  .main-banner .main-image {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    float: none;
-    margin: 0rem;
-  }
-
-  .main-banner .main-image img {
-    margin: 0rem;
-  }
-
-  .main-banner .right.main .headline {
-    font-size: 2.4rem;
-    font-weight: bold;
-  }
-
-  .main-banner .right.main .body {
-    font-size: 1.6rem;
-    line-height: 1.2;
-    margin-right: 0rem;
-  }
-
-  .main-banner .right.main .button {
-    margin-top: 4rem;
-  }
-
-  .main-banner .right.main .button a {
-    background-color: #686262;
-    padding: 1.1rem 38%;
-    font-size: 1rem;
-    font-weight: normal;
-  }
-}
-
-
-/* Another attempt at getting the main banner to size */
 .top-banner {
   display: flex;
   background-color: #F0EFEF;
@@ -219,7 +169,7 @@ html {
 }
 
 .top-text {
-  margin-top: 5rem;
+  margin-top: 30%;
   margin-left: 4rem;
 }
 
@@ -281,6 +231,68 @@ html {
 
   .cta a {
     padding: 0.8rem 20%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .top-banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column-left {
+    width: 100%;
+  }
+
+  .top-image {
+    width: 100%;
+  }
+
+  .top-image img {
+    margin: 0;
+  }
+
+  .column-right {
+    width: 100%;
+  }
+
+  .top-text {
+    margin-top: 5%;
+  }
+
+  .main-headline {
+    font-size: 2.75rem;
+  }
+
+  .top-text p {
+    font-size: 1.60rem;
+    margin-top: 1.25rem;
+  }
+
+  .cta {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 28%;
+  }
+}
+
+@media only screen and (max-width: 553px) {
+  .main-headline {
+    font-size: 2.2rem;
+  }
+
+  .top-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .cta {
+    width: 100%;
+    margin-left: 18%;
+  }
+
+  .cta a {
+    width: 100%;
   }
 }
 
