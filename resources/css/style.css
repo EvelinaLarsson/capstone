@@ -145,7 +145,12 @@ html {
   display: flex;
 }
 
+.left-column {
+  width: 60%;
+}
+
 .main-banner .main-image {
+  display: inline;
   height: auto;
   float: left;
   overflow: hidden;
@@ -159,6 +164,7 @@ html {
 }
 
 .main-banner .right.main {
+  width: 40%;
   margin-left: 6rem;
   margin-top: 9rem;
 }
@@ -293,6 +299,47 @@ html {
     font-size: 1rem;
     font-weight: normal;
   }
+}
+
+
+/* Another attempt at getting the main banner to size */
+.top-banner {
+  display: flex;
+  background-color: #F0EFEF;
+}
+
+.column-left {
+  width: 60%;
+  padding-right: 2rem;
+}
+
+.top-image {
+  display: inline;
+  height: auto;
+  float: left;
+  overflow: hidden;
+}
+
+.top-image img {
+  margin: 2rem;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.column-right {
+  display: inline;
+  width: 40%;
+}
+
+.top-text {
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+
+.main-headline {
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 /* Second section styling; two-column class used for section 4 as well */
