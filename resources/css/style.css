@@ -342,6 +342,63 @@ html {
   font-weight: bold;
 }
 
+.top-text p {
+  font-size: 2rem;
+  margin-top: 2rem;
+  line-height: 1.3;
+}
+
+.cta {
+  margin-top: 4rem;
+}
+
+.cta a {
+  background-color: #686262;
+  color: white;
+  text-decoration: none;
+  padding: 1.2rem 35%;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 1105px) {
+  .top-text {
+    margin-left: 2.5rem;
+  }
+
+  .main-headline {
+    font-size: 2rem;
+  }
+
+  .top-text p {
+    font-size: 1.25rem;
+  }
+
+  .cta a {
+    padding: 1.2rem 20%;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 803px) {
+  .top-text {
+    margin-left: 1.5rem;
+  }
+
+  .main-headline {
+    font-size: 1.5rem;
+  }
+
+  .top-text p {
+    font-size: 1rem;
+  }
+
+  .cta a {
+    padding: 0.8rem 20%;
+  }
+}
+
+
 /* Second section styling; two-column class used for section 4 as well */
 .section2 {
   display: flex;
