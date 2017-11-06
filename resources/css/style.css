@@ -393,10 +393,6 @@ html {
   color: #2485f2;
 }
 
-.small {
-  margin-left: 1rem;
-}
-
 .small img {
   width: 35%;
   height: auto;
@@ -407,6 +403,7 @@ html {
   display: block;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
   transition: background-color 400ms ease-out 0s;
 }
 
@@ -426,6 +423,7 @@ html {
   border-bottom: 3px solid #F0EFEF;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
   transition: background-color 400ms ease-out 0s;
 }
 
@@ -443,6 +441,7 @@ html {
 
 .small.three.desktop {
   padding-top: 1rem;
+  padding-left: 1rem;
   transition: background-color 400ms ease-out 0s;
 }
 
@@ -767,10 +766,6 @@ html {
   margin-top: 1rem;
 }
 
-.small {
-  margin-left: 1rem;
-}
-
 .small img {
   width: 35%;
   height: auto;
@@ -781,6 +776,7 @@ html {
   display: block;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
   transition: background-color 600ms ease-out 0s;
 }
 
@@ -800,6 +796,7 @@ html {
   border-bottom: 0px;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
   transition: background-color 600ms ease-out 0s;
 }
 
