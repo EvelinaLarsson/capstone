@@ -386,8 +386,12 @@ html {
 
 .column2 a {
   text-decoration: none;
+  color: #686262;
 }
 
+.column2 a:active {
+  color: #2485f2;
+}
 
 .small {
   margin-left: 1rem;
@@ -418,18 +422,6 @@ html {
   padding-top: 9%;
 }
 
-.small.one.desktop .one-copy a {
-  transition: color 0ms linear 0s;
-}
-
-.small.one.desktop .one-copy a:active {
-  color: #2485f2;
-}
-
-.small.one.desktop .one-copy a:visited {
-  color: #2485f2;
-}
-
 .small.two.desktop {
   border-bottom: 3px solid #F0EFEF;
   padding-top: 1rem;
@@ -449,18 +441,6 @@ html {
   padding-top: 9%;
 }
 
-.small.two.desktop .two-copy a {
-  transition: color 0ms linear 0s;
-}
-
-.small.two.desktop .two-copy a:active {
-  color: #2485f2;
-}
-
-.small.two.desktop .two-copy a:visited {
-  color: #2485f2;
-}
-
 .small.three.desktop {
   padding-top: 1rem;
   transition: background-color 400ms ease-out 0s;
@@ -476,18 +456,6 @@ html {
   float: right;
   width: 60%;
   padding-top: 9%;
-}
-
-.small.three.desktop .three-copy a {
-  transition: color 0ms linear 0s;
-}
-
-.small.three.desktop .three-copy a:active {
-  color: #2485f2;
-}
-
-.small.three.desktop .three-copy a:visited {
-  color: #2485f2;
 }
 
 .column2 .small-headline {
@@ -629,12 +597,13 @@ html {
 .courses.desktop {
   display: flex;
   margin-left: 4.5rem;
-  margin-right: 4.5rem;
+  margin-right: 6.5rem;
 }
 
 .course {
   flex: 1;
   padding: 1rem;
+  padding-bottom: 4rem;
 }
 
 .courses.desktop img {
@@ -693,7 +662,7 @@ html {
 
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 830px) {
   .section3 {
     background-color: white;
   }
