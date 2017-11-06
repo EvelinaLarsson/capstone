@@ -25,7 +25,7 @@
 html {
   font-size: 16px;
   font-family: "Rubik";
-  color: #686262;
+  color: rgb(74, 74, 74);
 }
 
 /* Navigation styling, Desktop */
@@ -34,7 +34,6 @@ html {
   height: 4rem;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #F0EFEF;
 }
 
 .brand {
@@ -55,13 +54,13 @@ html {
 
 .nav .menu .navigation a {
   text-decoration: none;
-  color: #686262;
+  color: rgb(74, 74, 74);
   margin: 0.5rem;
   transition: color 0ms linear 0s;
 }
 
 .nav .menu .navigation a:active {
-  color: #2485f2;
+  color: rgb(36, 133, 242);
 }
 
 .nav .menu .navigation {
@@ -73,12 +72,12 @@ html {
 }
 
 .nav .name .dark {
-  color: #686262;
+  color: rgb(74, 74, 74);
   font-weight: bold;
 }
 
 .nav .name .light {
-  color: #909090;
+  color: rgb(155, 155, 155);
   font-weight: lighter;
 }
 
@@ -146,7 +145,7 @@ html {
 /* Main header section styling */
 .top-banner {
   display: flex;
-  background-color: #F0EFEF;
+  background-color: rgb(216, 216, 216);
 }
 
 .column-left {
@@ -194,21 +193,21 @@ html {
 }
 
 .button a {
-  background-color: #686262;
+  background-color: rgb(74, 74, 74);
   color: white;
   text-decoration: none;
   padding: 1.2rem 35%;
   font-size: 1.5rem;
   font-weight: lighter;
-  transition: background-color 650ms linear 0s, color 0s linear 0s;
+  transition: background-color 550ms linear 0s, color 0s linear 0s;
 }
 
 .button a:hover {
-  background-color: #909090;
+  background-color: rgb(234, 235, 237);
 }
 
 .button a:active {
-  color: #2485f2;
+  color: rgb(36, 133, 242);
 }
 
 @media only screen and (max-width: 1393px) {
@@ -262,7 +261,7 @@ html {
   }
 
   .button a {
-    background-color: #cbc8c8;
+    /*background-color: rgb(234, 235, 237);*/
     padding: 0.8rem 20%;
   }
 }
@@ -338,7 +337,7 @@ html {
 .column1 {
   width: 60%;
   padding-right: 2rem;
-  border-right: 1px solid #F0EFEF;
+  border-right: 1px solid rgb(216, 216, 216);
 }
 
 .column1 .section-image {
@@ -386,11 +385,11 @@ html {
 
 .column2 a {
   text-decoration: none;
-  color: #686262;
+  color: rgb(36, 133, 242);
 }
 
 .column2 a:active {
-  color: #2485f2;
+  color: rgb(74, 74,74);
 }
 
 .small img {
@@ -399,7 +398,7 @@ html {
 }
 
 .small.one.desktop {
-  border-bottom: 3px solid #F0EFEF;
+  border-bottom: 3px solid rgb(216, 216, 216);
   display: block;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -408,7 +407,7 @@ html {
 }
 
 .small.one.desktop:hover {
-  background-color: #F0EFEF;
+  background-color: rgb(216, 216, 216);
 }
 
 .small.one.desktop .one-copy {
@@ -420,7 +419,7 @@ html {
 }
 
 .small.two.desktop {
-  border-bottom: 3px solid #F0EFEF;
+  border-bottom: 3px solid rgb(216, 216, 216);
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
@@ -428,7 +427,7 @@ html {
 }
 
 .small.two.desktop:hover {
-  background-color: #F0EFEF;
+  background-color: rgb(216, 216, 216);
 }
 
 .small.two.desktop .two-copy {
@@ -442,11 +441,12 @@ html {
 .small.three.desktop {
   padding-top: 1rem;
   padding-left: 1rem;
+  padding-bottom: 1rem;
   transition: background-color 400ms ease-out 0s;
 }
 
 .small.three.desktop:hover {
-  background-color: #F0EFEF;
+  background-color: rgb(216, 216, 216);
 }
 
 .small.three.desktop .three-copy {
@@ -511,11 +511,7 @@ html {
   }
 
   .small.one.mobile .one-copy a:active {
-    color: #2485f2;
-  }
-
-  .small.one.mobile .one-copy a:visited {
-    color: #2485f2;
+    color: rgb(74, 74, 74);
   }
 
   .small.two.mobile {
@@ -540,11 +536,7 @@ html {
   }
 
   .small.two.mobile .two-copy a:active {
-    color: #2485f2;
-  }
-
-  .small.two.mobile .two-copy a:visited {
-    color: #2485f2;
+    color: rgb(74, 74, 74);
   }
 
   .small.three.mobile {
@@ -569,11 +561,7 @@ html {
   }
 
   .small.three.mobile .three-copy a:active {
-    color: #2485f2;
-  }
-
-  .small.three.mobile .three-copy a:visited {
-    color: #2485f2;
+    color: rgb(74, 74, 74);
   }
 }
 
