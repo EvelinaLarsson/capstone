@@ -261,7 +261,6 @@ html {
   }
 
   .button a {
-    /*background-color: rgb(234, 235, 237);*/
     padding: 0.8rem 20%;
   }
 }
@@ -294,6 +293,7 @@ html {
 
   .main-headline {
     font-size: 2.75rem;
+    line-height: 1.5;
   }
 
   .top-text p {
@@ -307,6 +307,9 @@ html {
     margin-left: 28%;
   }
 
+  .button a {
+    background-color: rgb(155, 155, 155)
+  }
 
 }
 
@@ -316,7 +319,7 @@ html {
   }
 
   .top-text p {
-    font-size: 1rem;
+    font-size: 1.60rem;
     line-height: 1.5;
   }
 
@@ -493,6 +496,11 @@ html {
     display: flex;
     flex-direction: column;
     width: 100%;
+    transition: background-color 400ms ease-out 0s;
+  }
+
+  .small.one.mobile:hover {
+    background-color: rgb(216, 216, 216);
   }
 
   .small.one.mobile img {
@@ -518,6 +526,11 @@ html {
     display: flex;
     flex-direction: column;
     width: 100%;
+    transition: background-color 400ms ease-out 0s;
+  }
+
+  .small.two.mobile:hover {
+    background-color: rgb(216, 216, 216);
   }
 
   .small.two.mobile img {
@@ -543,6 +556,11 @@ html {
     display: flex;
     flex-direction: column;
     width: 100%;
+    transition: background-color 400ms ease-out 0s;
+  }
+
+  .small.three.mobile:hover {
+    background-color: rgb(216, 216, 216);
   }
 
   .small.three.mobile img {
@@ -616,7 +634,7 @@ html {
 
 #course-copy a {
   text-decoration: none;
-  color: #686262;
+  color: rgb(74, 74, 74);
   padding-bottom: 0.5rem;
 }
 
@@ -645,10 +663,6 @@ html {
   }
 }
 
-@media only screen and (min-width: 768px) {
-
-}
-
 @media only screen and (max-width: 830px) {
   .section3 {
     background-color: white;
@@ -670,7 +684,7 @@ html {
     font-size: 1.5rem;
     font-weight: lighter;
     height: 3.3rem;
-    background-color: #cbc8c8;
+    background-color: rgb(216, 216, 216);
     width: 100%;
     margin-left: 5%;
     margin-bottom: 1rem;
@@ -678,16 +692,17 @@ html {
   }
 
   .courses.mobile .course-copy:hover {
-    background-color: #F0EFEF;
+    background-color: rgb(234, 235, 237);
   }
 
   .course-copy a {
     text-decoration: none;
-    color: #686262;
+    color: rgb(74, 74, 74);
+    font-weight: 500;
   }
 
   .course-copy a:active {
-    color: #2485f2;
+    color: rgb(36, 133, 242);
   }
 
   .course-copy span {
@@ -880,5 +895,11 @@ footer .links a {
   footer .links {
     display: none;
   }
-
 }
+
+/*
+Dark: #4a4a4a, rgb 74, 74, 74
+Middle: #9b9b9b, rgb 155, 155, 155
+Light: #d8d8d8, rgb 216, 216, 216
+Lighter: eaebed, rgb 234, 235 237
+Blue: #2485F2, rgb 36, 133, 242*/
