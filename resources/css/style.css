@@ -568,7 +568,7 @@ html {
 /* Section 3 - Courses styling */
 
 .section3 {
-  background-color: #F0EFEF;
+  background-color: rgb(234, 235, 237);
 }
 
 .section3 .headline3 {
@@ -611,7 +611,7 @@ html {
 }
 
 #course-copy:hover {
-  background-color: #F0EFEF;
+  background-color: rgb(234, 235, 237);
 }
 
 #course-copy a {
@@ -626,7 +626,7 @@ html {
 }
 
 .courses.desktop .small-copy {
-  color: #b2aeae;
+  color: rgb(155, 155, 155);
   padding: 0.25rem 0;
   line-height: 1.4;
 }
@@ -769,7 +769,7 @@ html {
 }
 
 .small.one.desktopb:hover {
-  background-color: #F0EFEF;
+  background-color: rgb(216, 216, 216);
 }
 
 .small.one.desktopb .one-copy {
@@ -789,7 +789,7 @@ html {
 }
 
 .small.two.desktopb:hover {
-  background-color: #F0EFEF;
+  background-color: rgb(216, 216, 216);
 }
 
 .small.two.desktopb .two-copy {
@@ -802,7 +802,7 @@ html {
 
 .column2b a {
   text-decoration: none;
-  color: #686262;
+  color: rgb(74, 74, 74);
   padding-bottom: 1rem;
 }
 
@@ -848,7 +848,7 @@ html {
 /* Footer desktop styling */
 footer {
   display: flex;
-  border-top: 2px solid #F0EFEF;
+  border-top: 2px solid rgb(216, 216, 216);
   height: 5rem;
   font-size: 0.75rem;
 }
@@ -864,7 +864,7 @@ footer .links {
 
 footer .links a {
   text-decoration: none;
-  color: #686262;
+  color: rgb(74, 74, 74);
   margin-right: 2rem;
 }
 
